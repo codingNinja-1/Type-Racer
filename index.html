@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Typeracer.com</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="wrapper">
+  <div class="levels">
+   <div class="levelchild showlevel" id="easy">Easy </div>
+   <div class="levelchild" id="medium">Medium</div>
+   <div class="levelchild" id="hard">Hard </div>
+  </div>
+  <div class="main">
+   <div class="gamearea">
+    <p>
+    Type the Given word within <span id="seconds">5</span>
+    seconds</p>
+    <h1 class="words" id="currentWords">First word</h1>
+    <input type="text" placeholder="Start typing......" class="textfield" id="input">
+    <span class="notification" id="notification"></span>
+   </div>
+<div class="timer">
+<h1>Time left: <span id="timer">0</span></h1> 
+<h1>Score: <span id="score">0</span></h1> 
+</div>
+   
+   <div class="footer">
+
+    <b>
+     <h1>instruction</h1>
+    </b>
+    <p class="word">Type each word in the given amount of seconds to score a point. To play again, just type the current word. Your score will reset</p>
+   </div>
+  </div>
+ </div>
+ <script src="index.js"></script>
+</body>
+</html>
